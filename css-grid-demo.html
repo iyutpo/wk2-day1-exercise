@@ -23,6 +23,20 @@ body {
   grid-gap: 1rem;
 }
 
+
+/* Is the screen larger than 600px? Make it two columns */
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, lfr);
+  }
+}
+
+@media (min-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(3, lfr);
+  }
+}
+
 </style>
 </head>
 <body>
