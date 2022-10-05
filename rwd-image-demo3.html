@@ -7,8 +7,11 @@
 
   
 
-<img src="images/eifel-tower.jpg" alt="Eifel Tower" style="width:auto;">
-
+<picture>
+    <source srcset="images/eifel-tower-small.jpg" media="(max-width: 400px)">
+    <source srcset="images/eifel-tower.jpg">
+    <img src="./images/eifel-tower.jpg" alt="Eifel Tower" style="width: auto;">
+</picture>
 
 <p>Resize the browser width and the image will change at 400px.</p>
 
